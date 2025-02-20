@@ -53,43 +53,74 @@ bot.action('verify', async (ctx) => {
                     caption: `🎉 *ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴꜱ, ${ctx.from.first_name}!* 🎉\n\n` +
                              `✅ ʏᴏᴜ ʜᴀᴠᴇ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴠᴇʀɪꜰɪᴇᴅ!\n` +
                              `🚀 ɴᴏᴡ, ᴄʜᴏᴏꜱᴇ ᴀ ʜᴀᴄᴋ ʙᴇʟᴏᴡ ᴀɴᴅ ꜱᴛᴀʀᴛ ᴡɪɴɴɪɴɢ! 🎮🔥`,
-                    parse_mode: "Markdown",
-                    reply_markup: {
-                        inline_keyboard: [
-                            [{ text: "51GAME", web_app: { url: "https://predictiontoolbot.github.io/51game/" } }],
-                            [{ text: "BDG WIN", web_app: { url: "https://predictiontoolbot.github.io/BdgWin/" } }],
-                            [{ text: "101 GAME", web_app: { url: "https://predictiontoolbot.github.io/101game/" } }],
-                            [{ text: "RAJA GAME", web_app: { url: "https://predictiontoolbot.github.io/RajaGame/" } }],
-                            [{ text: "55 CLUB", web_app: { url: "https://predictiontoolbot.github.io/55club/" } }],
-                            [{ text: "82 LOTTERY", web_app: { url: "https://predictiontoolbot.github.io/82lottery/" } }],
-                            [{ text: "DAMAN", web_app: { url: "https://predictiontoolbot.github.io/DamanGame/" } }],
-                            [{ text: "IN999", web_app: { url: "https://predictiontoolbot.github.io/In999/" } }],
-                            [{ text: "DIU WIN", web_app: { url: "https://predictiontoolbot.github.io/DiuWin/" } }],
-                            [{ text: "AVIATOR GOD", web_app: { url: "https://predictiontoolbot.github.io/AviatorGod/" } }],
-                            [{ text: "TIRANGA", web_app: { url: "https://predictiontoolbot.github.io/Tiranga/" } }],
-                            [{ text: "BHARAT CLUB", web_app: { url: "https://predictiontoolbot.github.io/BharatClub/" } }],
-                            [{ text: "91 CLUB", web_app: { url: "https://predictiontoolbot.github.io/91club/" } }],
-                            [{ text: "TC LOTTERY", web_app: { url: "https://predictiontoolbot.github.io/TcLottery/" } }],
-                            [{ text: "BIG DADYY", web_app: { url: "https://predictiontoolbot.github.io/BigDaddy/" } }],
-                            [{ text: "OK WIN", web_app: { url: "https://predictiontoolbot.github.io/OkWin/" } }],
-                            [{ text: "RAJA LUCK", web_app: { url: "https://predictiontoolbot.github.io/RajaLuck/" } }],
-                            [{ text: "SIKKIM", web_app: { url: "https://predictiontoolbot.github.io/Sikkim/" } }],
-                            [{ text: "GOA GAME", web_app: { url: "https://predictiontoolbot.github.io/GoaGame/" } }],
-                            [{ text: "DM WIN", web_app: { url: "https://predictiontoolbot.github.io/DmWin/" } }],
-                            [{ text: "BIG MUMBAI", web_app: { url: "https://predictiontoolbot.github.io/BigMumbai/" } }],
-                            [{ text: "BBGO", web_app: { url: "https://predictiontoolbot.github.io/Bbgo/" } }],
-                            [{ text: "DG CLUB", web_app: { url: "https://predictiontoolbot.github.io/DgClub/" } }],
-                            [{ text: "BILI WIN", web_app: { url: "https://predictiontoolbot.github.io/BiliWin/" } }],
-                            [{ text: "JAI WIN", web_app: { url: "https://predictiontoolbot.github.io/JaiWin/" } }],
-                            [{ text: "BOUNTY GAME", web_app: { url: "https://predictiontoolbot.github.io/BountyGame/" } }],
-                            [{ text: "KWG GAME", web_app: { url: "https://predictiontoolbot.github.io/KKwgGame/" } }],
-                            [{ text: "NN GAME", web_app: { url: "https://predictiontoolbot.github.io/NnGame/" } }],
-                            [{ text: "LOTTERY 7", web_app: { url: "https://predictiontoolbot.github.io/Lottery7/" } }],
-                            [{ text: "BS WIN", web_app: { url: "https://predictiontoolbot.github.io/BsWin/" } }]
-                        ]
-                    }
-                }
-            );
+                             parse_mode: "Markdown", 
+                             reply_markup: {
+                                 inline_keyboard: [
+                                     [
+                                         { text: "51GAME", web_app: { url: "https://predictiontoolbot.github.io/51game/" } },
+                                         { text: "BDG WIN", web_app: { url: "https://predictiontoolbot.github.io/BdgWin/" } }
+                                     ],
+                                     [
+                                         { text: "101 GAME", web_app: { url: "https://predictiontoolbot.github.io/101game/" } },
+                                         { text: "RAJA GAME", web_app: { url: "https://predictiontoolbot.github.io/RajaGame/" } }
+                                     ],
+                                     [
+                                         { text: "55 CLUB", web_app: { url: "https://predictiontoolbot.github.io/55club/" } },
+                                         { text: "82 LOTTERY", web_app: { url: "https://predictiontoolbot.github.io/82lottery/" } }
+                                     ],
+                                     [
+                                         { text: "DAMAN", web_app: { url: "https://predictiontoolbot.github.io/DamanGame/" } },
+                                         { text: "IN999", web_app: { url: "https://predictiontoolbot.github.io/In999/" } }
+                                     ],
+                                     [
+                                         { text: "DIU WIN", web_app: { url: "https://predictiontoolbot.github.io/DiuWin/" } },
+                                         { text: "AVIATOR GOD", web_app: { url: "https://predictiontoolbot.github.io/AviatorGod/" } }
+                                     ],
+                                     [
+                                         { text: "TIRANGA", web_app: { url: "https://predictiontoolbot.github.io/Tiranga/" } },
+                                         { text: "BHARAT CLUB", web_app: { url: "https://predictiontoolbot.github.io/BharatClub/" } }
+                                     ],
+                                     [
+                                         { text: "91 CLUB", web_app: { url: "https://predictiontoolbot.github.io/91club/" } },
+                                         { text: "TC LOTTERY", web_app: { url: "https://predictiontoolbot.github.io/TcLottery/" } }
+                                     ],
+                                     [
+                                         { text: "BIG DADDY", web_app: { url: "https://predictiontoolbot.github.io/BigDaddy/" } },
+                                         { text: "OK WIN", web_app: { url: "https://predictiontoolbot.github.io/OkWin/" } }
+                                     ],
+                                     [
+                                         { text: "RAJA LUCK", web_app: { url: "https://predictiontoolbot.github.io/RajaLuck/" } },
+                                         { text: "SIKKIM", web_app: { url: "https://predictiontoolbot.github.io/Sikkim/" } }
+                                     ],
+                                     [
+                                         { text: "GOA GAME", web_app: { url: "https://predictiontoolbot.github.io/GoaGame/" } },
+                                         { text: "DM WIN", web_app: { url: "https://predictiontoolbot.github.io/DmWin/" } }
+                                     ],
+                                     [
+                                         { text: "BIG MUMBAI", web_app: { url: "https://predictiontoolbot.github.io/BigMumbai/" } },
+                                         { text: "BBGO", web_app: { url: "https://predictiontoolbot.github.io/Bbgo/" } }
+                                     ],
+                                     [
+                                         { text: "DG CLUB", web_app: { url: "https://predictiontoolbot.github.io/DgClub/" } },
+                                         { text: "BILI WIN", web_app: { url: "https://predictiontoolbot.github.io/BiliWin/" } }
+                                     ],
+                                     [
+                                         { text: "JAI WIN", web_app: { url: "https://predictiontoolbot.github.io/JaiWin/" } },
+                                         { text: "BOUNTY GAME", web_app: { url: "https://predictiontoolbot.github.io/BountyGame/" } }
+                                     ],
+                                     [
+                                         { text: "KWG GAME", web_app: { url: "https://predictiontoolbot.github.io/KWgGame/" } },
+                                         { text: "NN GAME", web_app: { url: "https://predictiontoolbot.github.io/NnGame/" } }
+                                     ],
+                                     [
+                                         { text: "LOTTERY 7", web_app: { url: "https://predictiontoolbot.github.io/Lottery7/" } },
+                                         { text: "BS WIN", web_app: { url: "https://predictiontoolbot.github.io/BsWin/" } }
+                                     ]
+                                 ]
+                             }
+                         }
+                     );
+                     
             
             
         } else {
