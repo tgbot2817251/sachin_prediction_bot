@@ -5,7 +5,7 @@ const bot = new Telegraf('7718357332:AAFG5WgTpqzFEgWRAndpJ1goStL1pNZJDac'); // �
 
 // 🔹 Aapke Telegram Channels (Apne Replace Karein)
 const channel1 = '@official_team_19';
-const channel2 = '@team19_4u';
+const channel2 = '@team19_Secrets';
 const channel3 = '@team19sachin';
 
 // 🔹 Start command – Image + Message + Buttons
