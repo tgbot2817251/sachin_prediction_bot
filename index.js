@@ -102,19 +102,11 @@ bot.action('verify', async (ctx) => {
                                      ],
                                      [
                                          { text: "DG CLUB", web_app: { url: "https://predictiontoolbot.github.io/DgClub/" } },
-                                         { text: "BILI WIN", web_app: { url: "https://predictiontoolbot.github.io/BiliWin/" } }
-                                     ],
-                                     [
-                                         { text: "JAI WIN", web_app: { url: "https://predictiontoolbot.github.io/JaiWin/" } },
                                          { text: "BOUNTY GAME", web_app: { url: "https://predictiontoolbot.github.io/BountyGame/" } }
                                      ],
                                      [
                                          { text: "KWG GAME", web_app: { url: "https://predictiontoolbot.github.io/KwgGame/" } },
                                          { text: "NN GAME", web_app: { url: "https://predictiontoolbot.github.io/NnGame/" } }
-                                     ],
-                                     [
-                                         { text: "LOTTERY 7", web_app: { url: "https://predictiontoolbot.github.io/Lottery7/" } },
-                                         { text: "BS WIN", web_app: { url: "https://predictiontoolbot.github.io/BsWin/" } }
                                      ]
                                  ]
                              }
