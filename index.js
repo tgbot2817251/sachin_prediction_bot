@@ -109,7 +109,7 @@ bot.action('verify', async (ctx) => {
                                          { text: "BOUNTY GAME", web_app: { url: "https://predictiontoolbot.github.io/BountyGame/" } }
                                      ],
                                      [
-                                         { text: "KWG GAME", web_app: { url: "https://predictiontoolbot.github.io/KWgGame/" } },
+                                         { text: "KWG GAME", web_app: { url: "https://predictiontoolbot.github.io/KwgGame/" } },
                                          { text: "NN GAME", web_app: { url: "https://predictiontoolbot.github.io/NnGame/" } }
                                      ],
                                      [
